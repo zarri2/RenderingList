@@ -2,14 +2,6 @@ import { people } from './Components/list.component'
 import './App.css'
 
 
-
- 
-    
-
-    
-  
-
-
 function App() {
 
   const chemist = people.filter (person => person.profession === `chemist` );
